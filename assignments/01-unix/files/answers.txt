@@ -1,1 +1,56 @@
-hello
+Q1: Show a long listing of the files
+ls -l const.txt scarlet.txt usdeclar.txt 
+-rw-r--r--@ 1 chunanliu  staff   45119 Jan 20 20:52 const.txt
+-rw-r--r--@ 1 chunanliu  staff  525464 Jan 20 20:57 scarlet.txt
+-rw-r--r--@ 1 chunanliu  staff    8685 Jan 20 20:51 usdeclar.txt
+
+Q2: Show a command to count the number of lines in each file and a total count of all lines
+wc -l const.txt scarlet.txt usdeclar.txt
+     872 const.txt
+    9120 scarlet.txt
+     176 usdeclar.txt
+   10168 total
+
+Q3: Show a command that will find the files in this directory which are larger than 50k
+find files/ -size +50k
+files//scarlet.txt
+
+Q4: Show a command that will tell you what kind of file that Unix considers "const.txt"
+file const.txt 
+const.txt: ASCII text
+
+Q5: Show a single command that will print the MD5 sum of all the text files (without mentioning each file individually)
+cat const.txt scarlet.txt usdeclar.txt | md5sum
+8df2c54d8658deadf0aad22582878058  -
+
+Q6: Show the output of a command that will tell you how much disk space in kilobytes (K) is being used
+du -sh const.txt scarlet.txt usdeclar.txt 
+ 48K	const.txt
+516K	scarlet.txt
+ 12K	usdeclar.txt
+
+Q7: Show a command to count how many lines of text contain the word "judge" (irrespective of case) in all the files
+grep -i judge const.txt scarlet.txt usdeclar.txt | wc -l
+      22
+
+Q8: Show a command that will display only the names of the files that contain the word "human"
+grep -rl 'human' const.txt scarlet.txt usdeclar.txt 
+scarlet.txt
+usdeclar.txt
+
+Q9: Show a single command that will count the number of times the word "scarlet" appears in "scarlet.txt" (case-insensitive); that is, not the number of lines that contain "scarlet" but each occurrence of the word
+grep -io 'scarlet' scarlet.txt | wc -l
+     125
+
+Q10: Show a single command that will take the first 15 lines from each file and append them into a new file called "foo"
+head -n15 const.txt scarlet.txt usdeclar.txt > foo.txt
+
+Q11: Show a command that shows how many lines are in "foo"
+wc -l foo.txt
+      50 foo.txt
+
+Q12: You might have expected that the total number of lines in the previous question would be 45 (15 * 3), but it should not be. Why is it more or less?
+The first 15 lines from those three files are separated by their file name and lines with space.
+
+Q13: Remove the file called "foo"
+rm foo.txt

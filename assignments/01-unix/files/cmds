@@ -1,0 +1,500 @@
+  143  ls -lh
+  144  ls -lh
+  145  clear
+  146  ls -lh
+  147  ls -lh
+  148  ls -lh
+  149  wc -l GTEx_Analysis_2016-01-15_v7_RSEMv1.2.22_transcript_expected_count.txt 
+  150  wc -l FinalExceptedCountSampleNameData.txt 
+  151  clear
+  152  ls -lh
+  153  head FinalExceptedCountSampleNameData.txt 
+  154  ls -lh
+  155  clear
+  156  ls
+  157  open FinalExceptedCountSampleNameData.txt 
+  158  clear
+  159  cd ..
+  160  python ExtractCountDataFolder.py 
+  161  clear
+  162  ls
+  163  clear
+  164  cd countdata/
+  165  ls -lh
+  166  wc -l GTEx_Analysis_2016-01-15_v7_RSEMv1.2.22_transcript_expected_count.txt 
+  167  wc -l FinalExceptedCountSampleNameData.txt 
+  168  clear
+  169  open .
+  170  ls
+  171  ls -lh
+  172  ls -lh
+  173  ls -lh
+  174  cldear
+  175  clear
+  176  ls -lh
+  177  ls -lh
+  178  ls -lh
+  179  ls -lh
+  180  ls -lh
+  181  rm Final*.txt
+  182  clear
+  183  ls
+  184  ls -lh
+  185  ls -lh
+  186  ls -lh
+  187  ls -lh
+  188  wc -l FinalExceptedCountSampleNameData.txt 
+  189  wc -l GTEx_Analysis_2016-01-15_v7_RSEMv1.2.22_transcript_expected_count.txt 
+  190  wc -l GTEx_Analysis_2016-01-15_v7_RSEMv1.2.22_transcript_tpm.txt 
+  191  wc -l FinalTpmSampleNameData.txt 
+  192  vim FinalExceptedCountSampleNameData.txt 
+  193  awk '{print NF}' FinalExceptedCountSampleNameData.txt | sort -nu | tail -n 1
+  194  awk '{print NF}' FinalTpmSampleNameData.txt | sort -nu | tail -n 1
+  195  ls
+  196  cd Final
+  197  cd cp FinalExceptedCountSampleNameData.txt Final9files/
+  198  cp FinalExceptedCountSampleNameData.txt Final9files/
+  199  cp FinalTpmSampleNameData.txt Final9files/
+  200  cd Final9files/
+  201  ls -lh
+  202  cd ..
+  203  ls
+  204  ls -lh
+  205  ls -lh
+  206  ls -lh
+  207  ls -lh
+  208  ls -lh
+  209  ls -lh
+  210  ls -lh
+  211  ls -lh
+  212  ls -lh
+  213  ls -lh
+  214  ls -lh
+  215  ls -lh
+  216  ls -lh
+  217  ls -lh
+  218  ls -lh
+  219  ls -lh
+  220  ls -lh
+  221  cp FinalExceptedCountSampleNameData.txt Final9files/
+  222  cp FinalTpmSampleNameData.txt Final9files/
+  223  ls -lh Final9files/
+  224  ls -lh Final9files/
+  225  ls -lh Final9files/
+  226  ls -lh Final9files/
+  227  ls -lh Final9files/
+  228  ls -lh Final9files/
+  229  ls -lh Final9files/
+  230  ls -lh Final9files/
+  231  ls -lh Final9files/
+  232  ls -lh Final9files/
+  233  ls -lh Final9files/
+  234  ls -lh Final9files/
+  235  ls -lh Final9files/
+  236  ls
+  237  cd Final
+  238  ls
+  239  cd Final9files/
+  240  clear
+  241  ls
+  242  vim CanNotFindSampleIDList.txt 
+  243  cd ..
+  244  ls
+  245  cd ..
+  246  vim SraRunTable.txt 
+  247  clear
+  248  ls
+  249  vim 383IndividualsData.txt 
+  250  vim 383IndividualsAddSampleName.txt 
+  251  vim 383IndividualsDupSubID.txt 
+  252  cd ~/Downloads/
+  253  ls
+  254  gunzip GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_tpm.gct.gz 
+  255  ls
+  256  awk '{print NF}' GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_tpm.gct | sort -nu | tail -n 1
+  257  cp GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_tpm.gct ../Fan/python3Code/Extract/countdata/
+  258  cd Fan/python3Code/Extract/countdata/R_result/
+  259  vim cor_tpm_type2_DE0.3.csv
+  260  ls
+  261  vim cor_tpm_type2_DE0.3.csv 
+  262  vim cor_tpm_type2_DE0.1.csv 
+  263  vim cor_tpm_type2_DE0.3.csv 
+  264  vim cor_tpm_control_DE0.3.csv
+  265  ls
+  266  ls -lh
+  267  vim cor_tpm_control_DE0.3.csv 
+  268  vim DE_0.3.csv
+  269  vim DE_0.3.csv 
+  270  ls -lh
+  271  rm DE_0.3.csv 
+  272  vim DE0.3.csv 
+  273  vim DE0.3.csv 
+  274  cd ..
+  275  ls
+  276  cd copyforR/
+  277  ls
+  278  vim FinalGenetpmfileType2isOne.txt 
+  279  vim FinalGenetpmfileType2isZero.txt 
+  280  cd ../R_result/
+  281  LS
+  282  vim DE0.3.csv 
+  283  cd ..
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd countdata/
+  288  ls
+  289  cd Final9files/
+  290  ls
+  291  open .
+  292  cd ..
+  293  ls
+  294  cd R_result/
+  295  LS
+  296  vim DE0.3.csv 
+  297  open .
+  298  cd ..
+  299  ls
+  300  cd copyforR/
+  301  cd ..
+  302  cd Final9files/
+  303  ls
+  304  open .
+  305  vim FinalGeneReadfileType2isOne.txt 
+  306  vim FinalGeneReadfileType2isZero.txt 
+  307  vim FinalGenetpmfileType2isOne.txt 
+  308  vim FinalGenetpmfileType2isZero.txt 
+  309  cd Downloads/
+  310  ls
+  311  cd drive-download-20181129T231010Z-001
+  312  ls
+  313  module load fastx
+  314  module load
+  315  module load
+  316  scp chunanliu@sftp.arizona.edu:/home/u24/chunanliu/hurwitz/test/test4/* 
+  317  scp chunanliu@sftp.arizona.edu:/home/u24/chunanliu/hurwitz/test/test4/* .
+  318  scp chunanliu@sftp.hpc.arizona.edu:/home/u24/chunanliu/hurwitz/test/test4/* .
+  319  cd Downloads/
+  320  ls
+  321  cd drive-download-20181129T231010Z-001
+  322  ls
+  323  scp * chunanliu@sftp.hpc.arizona.edu://home/u24/chunanliu/hurwitz/test/test2
+  324  ssh chunanliu@hpc.arizona.edu
+  325  clear
+  326  scp chunanliu@sftp.hpc.arizona.edu:/home/u24/chunanliu/hurwitz/test/test2/*.tsv ../../Desktop/
+  327  scp chunanliu@sftp.hpc.arizona.edu:/home/u24/chunanliu/hurwitz/test/test2/*.jpeg ../../Desktop/
+  328  ssh chunanliu@hpc.arizona.edu
+  329  ssh chunanliu@hpc.arizona.edu
+  330  ping www.google.com
+  331  ping www.google.com
+  332  ping 192.168.0.1
+  333  ping 10.128.195.38
+  334  clear
+  335  ping www.google.com
+  336  clear
+  337  cd /var/tmp/
+  338  clear
+  339  ls
+  340  ls -lh
+  341  cd Desktop/MATH\ 571A/
+  342  PWD
+  343  ping www.google.com
+  344  ping www.google.com
+  345  ping www.google.com
+  346  ~/.bash_profile
+  347  /home/user/.bash_profile
+  348  cd /home/user/.bash_profile
+  349  cd ~/.bash_profile
+  350  ~/.bashrc
+  351  cd ~/.bashrc
+  352  ~/.profile
+  353  cd ~/
+  354  touch .bash_profile
+  355  .bash_profile
+  356  open -e .bash_profile
+  357  . .bash_profile
+  358  .bash_profile
+  359  ssls
+  360  ls
+  361  cd Desktop/
+  362  ls
+  363  ls
+  364  ssh chunanliu@hpc.arizona.edu
+  365  .bash_profile
+  366  ~/.bash_profile 
+  367  .bash_profile
+  368  vim ~/.bash_profile
+  369  vim ~/.bash_profile
+  370  vim ~/.bash_profile
+  371  ssh chunanliu@hpc.arizona.edu
+  372  ssh chunanliu@email.arizona.edu
+  373  ssh chunanliu@hpc.arizona.edu
+  374  ssh chunanliu@hpc.arizona.edu
+  375  ssh chunanliu@hpc.arizona.edu
+  376  cd Desktop/
+  377  ls
+  378  mkdir BE 534
+  379  ls
+  380  rm -rf BE 534/
+  381  LS
+  382  ls
+  383  cd BE\ 534/
+  384  LS
+  385  clea
+  386  clear
+  387  scp chunanliu@sftp.hpc.arizona.edu:/rsgrps/bh_class/chunanliu/biosys-analytics/lectures/* .
+  388  ls
+  389  ls
+  390  scp chunanliu@sftp.hpc.arizona.edu:/rsgrps/bh_class/chunanliu/biosys-analytics/lectures/ .
+  391  git clone https://github.com/ChunaLiu/biosys-analytics.git
+  392  git clone
+  393  pwd
+  394  ls -lh
+  395  ls -l
+  396  tree
+  397  ssh chunanliu@hpc.arizona.edu
+  398  cd ~/.ssh
+  399  cat ~/.ssh/id_rsa.pub
+  400  ls
+  401  cat known_hosts 
+  402  pbcopy < known_hosts 
+  403  ssh chunanliu@hpc.arizona.edu
+  404  ssh hpc
+  405  ssh chunanliu@hpc.arizona.edu
+  406  ssh chunanliu@hpc.arizona.edu
+  407  ssh hpc
+  408  ls
+  409  cd Desktop/
+  410  mkdir work
+  411  cd work/
+  412  git clone git@github.com:ChunaLiu/biosys-analytics.git
+  413  git
+  414  git
+  415  git --version
+  416  git
+  417  git
+  418  pbcopy < ~/.ssh/id_rsa.pub 
+  419  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwlwlUvhTt835kJa7NeCVPJhjw/6H2o1CiDjqGneTqJ6boChkfNatsG6FVA6tVkSTMkBSudDeypmjZGx0GqjkN7SgRJ5FPs/KowhO4k3USZmr9T79bic+6L940hIz5ygkCxW28ZUZbOFapPLQZSgWIh3hBCAWPwQlmJMkzbBoLhuKuYsCYbgHXArQQVsjgntPOH4dUYHyi62ujFPJ8kXSkm4ohH2vrDD847wJQBAuZixwgZxGgJnEWISrSaljMqVLNFO+FmXUXH2yvILWRAnFUb3G5HsW5D7Z813WJ4oVy/9F10w9nD1ksLiwlyze9VQ8NdkJ9ehK4J4DufreetXx chunanliu@dhcp-10-142-203-204.uawifi.arizona.edu
+  420  LS
+  421  ls
+  422  git clone git@github.com:ChunaLiu/biosys-analytics.git
+  423  cd biosys-analytics/
+  424  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+  425  git pull upstream master
+  426  cd lectures/02-unix/
+  427  ls
+  428  open 02-unix.pdf 
+  429  cd ../../assignments/01-unix/
+  430  ls
+  431  cd ~/.ssh/
+  432  ls
+  433  cat id_rsa.pub 
+  434  ls
+  435  find --help
+  436  find ?
+  437  cd ..
+  438  cd Desktop/
+  439  cd work/
+  440  cd .
+  441  cd ..
+  442  find work -type d
+  443  ps work/
+  444  ps
+  445  top
+  446  PATH
+  447  $PATH
+  448  find
+  449  find work -name
+  450  man man
+  451  PWD
+  452  $PWD
+  453  $USER
+  454  USER
+  455  user
+  456  usr
+  457  cd work/
+  458  ls
+  459  cd biosys-analytics/
+  460  ls
+  461  cd lectures/
+  462  ls
+  463  cd 02-unix/
+  464  ls
+  465  open 02-unix.pdf 
+  466  cd ..
+  467  cd ..
+  468  git pull upstream master
+  469  cd assignments/
+  470  ls
+  471  cd 01-unix
+  472  ls
+  473  cd ../01-unix-grad/
+  474  ls
+  475  cat 01-unix-grad.txt 
+  476  cd ..
+  477  cd ..
+  478  git push
+  479  foo
+  480  echo $PATH
+  481  clear
+  482  clear -l
+  483  clear
+  484  echo $PATH
+  485  PATH
+  486  PATH = foo
+  487  PATH=/foo
+  488  ls
+  489  ls
+  490  echo $PATH
+  491  ls
+  492  cd assignments/
+  493  ls
+  494  LS
+  495  cd ..
+  496  cd ..
+  497  ls
+  498  ls
+  499  cd ~/Desktop/
+  500  ls
+  501  cd Desktop/BE\ 534/work/biosys-analytics/assignments/01-unix/files/
+  502  ls
+  503  md5sum *
+  504  brew install md5sha1sum
+  505  md5sum
+  506  sudo brew install md5sha1sum
+  507  pwd
+  508    sudo chown -R $(whoami) /usr/local/share/man/man5 /usr/local/share/man/man8
+  509  ls -lh
+  510    sudo chown -R chunanliu /usr/local/share/man/man5 /usr/local/share/man/man8
+  511  brew install md5sha1sum
+  512  md5sum *
+  513  cd ..
+  514  md5sum files/
+  515  cd ..
+  516  cd 01-unix/files/
+  517  md5sum const.txt scarlet.txt usdeclar.txt 
+  518  man md5sum
+  519  ls
+  520  md5sum
+  521  md5sum const.txt scarlet.txt usdeclar.txt 
+  522  md5sum *
+  523  cat file | md5sum > sumfile
+  524* cat * | md5sum
+  525  ls
+  526  vim sumfile 
+  527  rm -rf sumfile 
+  528  clear
+  529  ls
+  530  ls -lh
+  531  cat const.txt scarlet.txt usdeclar.txt | md5sum
+  532  cat const.txt scarlet.txt usdeclar.txt
+  533  cat const.txt scarlet.txt usdeclar.txt | md5sum
+  534  df
+  535  man df
+  536  df -h
+  537  df -k
+  538  clear
+  539  ls
+  540  df -hu
+  541  df -hs
+  542  df -h
+  543  du -hs
+  544  pwd
+  545  ls
+  546  du -h
+  547  du -hs
+  548  du -shc
+  549  du -sh const.txt scarlet.txt usdeclar.txt 
+  550  du -shc
+  551  grep "judge" const.txt scarlet.txt usdeclar.txt | wc -l
+  552  grep judge const.txt scarlet.txt usdeclar.txt | wc -l
+  553  grep judge const.txt scarlet.txt usdeclar.txt | cat
+  554  man grep
+  555  grep -i judge const.txt scarlet.txt usdeclar.txt | cat
+  556  grep -i judge const.txt scarlet.txt usdeclar.txt | wc -l
+  557  grep -i "judge" const.txt scarlet.txt usdeclar.txt | wc -l
+  558  grep -i judge const.txt scarlet.txt usdeclar.txt | wc -l
+  559  grep human const.txt scarlet.txt usdeclar.txt | file
+  560  grep human const.txt scarlet.txt usdeclar.txt | find
+  561  grep human const.txt scarlet.txt usdeclar.txt
+  562  grep check const.txt scarlet.txt usdeclar.txt lR
+  563  grep check const.txt scarlet.txt usdeclar.txt lR
+  564  grep human const.txt scarlet.txt usdeclar.txt lR
+  565  grep -r human const.txt scarlet.txt usdeclar.txt 
+  566  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1
+  567  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1 | unique
+  568  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1 | uni
+  569  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1 | uniq
+  570  ls
+  571  grep -Ril 'human' .
+  572  ls
+  573  grep -Ril 'human' const.txt scarlet.txt usdeclar.txt 
+  574  grep -rl 'human' const.txt scarlet.txt usdeclar.txt 
+  575  man grep
+  576  grep -l 'human' const.txt scarlet.txt usdeclar.txt 
+  577  grep -i 'scarlet' | wc -c
+  578  grep -i 'scarlet' scarlet.txt | wc -c
+  579  man wc
+  580  grep -i 'scarlet' scarlet.txt | wc -l
+  581  grep -io 'scarlet' scarlet.txt | wc -c
+  582  grep -o -i 'scarlet' scarlet.txt | wc -c
+  583  man wc
+  584  grep -i 'scarlet' scarlet.txt | wc -m
+  585  vim scarlet.txt 
+  586  man grep
+  587  grep -i0 judge const.txt scarlet.txt usdeclar.txt | wc -l
+  588  grep -io judge const.txt scarlet.txt usdeclar.txt | wc -l
+  589  grep -io judge const.txt scarlet.txt usdeclar.txt | wc -c
+  590  grep -io 'scarlet' scarlet.txt | wc -l
+  591  grep -o 'scarlet' scarlet.txt | wc -l
+  592  man grep
+  593  grep -c 'scarlet' scarlet.txt 
+  594  grep -ic 'scarlet' scarlet.txt 
+  595  grep -i 'scarlet' scarlet.txt | wc -ck
+  596  grep -i 'scarlet' scarlet.txt | wc -kck
+  597  grep -i 'scarlet' scarlet.txt | wc -kc
+  598  grep -i 'scarlet' scarlet.txt | wc -m
+  599  grep -io 'scarlet' scarlet.txt | wc -m
+  600  grep -i -o 'scarlet' scarlet.txt | wc -m
+  601  man grep
+  602  grep -i 'scarlet' scarlet.txt | cat
+  603  fgrep -i 'scarlet' scarlet.txt | cat
+  604* 
+  605  tr -cd  'scarlet' <scarlet.txt
+  606  clear
+  607  tr -cd  'scarlet' scarlet.txt 
+  608  tr -cd  'scarlet' <scarlet.txt 
+  609  clear
+  610  tr -cd  'scarlet' <scarlet.txt |wc -c
+  611  tr -cd  scarlet <scarlet.txt |wc -c
+  612* tr -cd  scarlet < scarlet.txt 
+  613  ls
+  614  vim scarlet.txt 
+  615  fgrep -0 "scarlet" scarlet.txt |wc -l
+  616  tr -cd "scarlet" < scarlet.txt 
+  617  clear
+  618  ls
+  619  ls -lh
+  620  tr -cd "scarlet"  scarlet.txt 
+  621  tr -cd "scarlet"  scarlet.txt |wc -c
+  622  tr -cd "scarlet" < scarlet.txt |wc -c
+  623  fgrep -0 "scarlet" scarlet.txt |wc -l
+  624  grep -0 'scarlet' scarlet.txt |wc -l
+  625  fgrep -o "scarlet" scarlet.txt |wc -l
+  626  fgrep -oi "scarlet" scarlet.txt |wc -l
+  627  fgrep -io "scarlet" scarlet.txt
+  628  grep -io scarlet.txt | cat
+  629  grep -io scarlet.txt
+  630  grep -io 'scarlet' scarlet.txt
+  631  grep -io 'scarlet' scarlet.txt | wc -l
+  632  grep -i 'scarlet' scarlet.txt | wc -l
+  633  head -n15 const.txt scarlet.txt usdeclar.txt > foo.txt
+  634  ls
+  635  vim foo.txt 
+  636  wc -l foo.txt 
+  637  vim foo.txt 
+  638  vi const.txt 
+  639  vim foo.txt 
+  640  rm foo.txt 
+  641  ls
+  642  history > cmds
