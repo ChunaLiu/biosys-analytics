@@ -1,0 +1,501 @@
+   73  cd copyforR/
+   74  cd ..
+   75  cd Final9files/
+   76  ls
+   77  open .
+   78  vim FinalGeneReadfileType2isOne.txt 
+   79  vim FinalGeneReadfileType2isZero.txt 
+   80  vim FinalGenetpmfileType2isOne.txt 
+   81  vim FinalGenetpmfileType2isZero.txt 
+   82  cd Downloads/
+   83  ls
+   84  cd drive-download-20181129T231010Z-001
+   85  ls
+   86  module load fastx
+   87  module load
+   88  module load
+   89  scp chunanliu@sftp.arizona.edu:/home/u24/chunanliu/hurwitz/test/test4/* 
+   90  scp chunanliu@sftp.arizona.edu:/home/u24/chunanliu/hurwitz/test/test4/* .
+   91  scp chunanliu@sftp.hpc.arizona.edu:/home/u24/chunanliu/hurwitz/test/test4/* .
+   92  cd Downloads/
+   93  ls
+   94  cd drive-download-20181129T231010Z-001
+   95  ls
+   96  scp * chunanliu@sftp.hpc.arizona.edu://home/u24/chunanliu/hurwitz/test/test2
+   97  ssh chunanliu@hpc.arizona.edu
+   98  clear
+   99  scp chunanliu@sftp.hpc.arizona.edu:/home/u24/chunanliu/hurwitz/test/test2/*.tsv ../../Desktop/
+  100  scp chunanliu@sftp.hpc.arizona.edu:/home/u24/chunanliu/hurwitz/test/test2/*.jpeg ../../Desktop/
+  101  ssh chunanliu@hpc.arizona.edu
+  102  ssh chunanliu@hpc.arizona.edu
+  103  ping www.google.com
+  104  ping www.google.com
+  105  ping 192.168.0.1
+  106  ping 10.128.195.38
+  107  clear
+  108  ping www.google.com
+  109  clear
+  110  cd /var/tmp/
+  111  clear
+  112  ls
+  113  ls -lh
+  114  cd Desktop/MATH\ 571A/
+  115  PWD
+  116  ping www.google.com
+  117  ping www.google.com
+  118  ping www.google.com
+  119  ~/.bash_profile
+  120  /home/user/.bash_profile
+  121  cd /home/user/.bash_profile
+  122  cd ~/.bash_profile
+  123  ~/.bashrc
+  124  cd ~/.bashrc
+  125  ~/.profile
+  126  cd ~/
+  127  touch .bash_profile
+  128  .bash_profile
+  129  open -e .bash_profile
+  130  . .bash_profile
+  131  .bash_profile
+  132  ssls
+  133  ls
+  134  cd Desktop/
+  135  ls
+  136  ls
+  137  ssh chunanliu@hpc.arizona.edu
+  138  .bash_profile
+  139  ~/.bash_profile 
+  140  .bash_profile
+  141  vim ~/.bash_profile
+  142  vim ~/.bash_profile
+  143  vim ~/.bash_profile
+  144  ssh chunanliu@hpc.arizona.edu
+  145  ssh chunanliu@email.arizona.edu
+  146  ssh chunanliu@hpc.arizona.edu
+  147  ssh chunanliu@hpc.arizona.edu
+  148  ssh chunanliu@hpc.arizona.edu
+  149  cd Desktop/
+  150  ls
+  151  mkdir BE 534
+  152  ls
+  153  rm -rf BE 534/
+  154  LS
+  155  ls
+  156  cd BE\ 534/
+  157  LS
+  158  clea
+  159  clear
+  160  scp chunanliu@sftp.hpc.arizona.edu:/rsgrps/bh_class/chunanliu/biosys-analytics/lectures/* .
+  161  ls
+  162  ls
+  163  scp chunanliu@sftp.hpc.arizona.edu:/rsgrps/bh_class/chunanliu/biosys-analytics/lectures/ .
+  164  git clone https://github.com/ChunaLiu/biosys-analytics.git
+  165  git clone
+  166  pwd
+  167  ls -lh
+  168  ls -l
+  169  tree
+  170  ssh chunanliu@hpc.arizona.edu
+  171  cd ~/.ssh
+  172  cat ~/.ssh/id_rsa.pub
+  173  ls
+  174  cat known_hosts 
+  175  pbcopy < known_hosts 
+  176  ssh chunanliu@hpc.arizona.edu
+  177  ssh hpc
+  178  ssh chunanliu@hpc.arizona.edu
+  179  ssh chunanliu@hpc.arizona.edu
+  180  ssh hpc
+  181  ls
+  182  cd Desktop/
+  183  mkdir work
+  184  cd work/
+  185  git clone git@github.com:ChunaLiu/biosys-analytics.git
+  186  git
+  187  git
+  188  git --version
+  189  git
+  190  git
+  191  pbcopy < ~/.ssh/id_rsa.pub 
+  192  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwlwlUvhTt835kJa7NeCVPJhjw/6H2o1CiDjqGneTqJ6boChkfNatsG6FVA6tVkSTMkBSudDeypmjZGx0GqjkN7SgRJ5FPs/KowhO4k3USZmr9T79bic+6L940hIz5ygkCxW28ZUZbOFapPLQZSgWIh3hBCAWPwQlmJMkzbBoLhuKuYsCYbgHXArQQVsjgntPOH4dUYHyi62ujFPJ8kXSkm4ohH2vrDD847wJQBAuZixwgZxGgJnEWISrSaljMqVLNFO+FmXUXH2yvILWRAnFUb3G5HsW5D7Z813WJ4oVy/9F10w9nD1ksLiwlyze9VQ8NdkJ9ehK4J4DufreetXx chunanliu@dhcp-10-142-203-204.uawifi.arizona.edu
+  193  LS
+  194  ls
+  195  git clone git@github.com:ChunaLiu/biosys-analytics.git
+  196  cd biosys-analytics/
+  197  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+  198  git pull upstream master
+  199  cd lectures/02-unix/
+  200  ls
+  201  open 02-unix.pdf 
+  202  cd ../../assignments/01-unix/
+  203  ls
+  204  cd ~/.ssh/
+  205  ls
+  206  cat id_rsa.pub 
+  207  ls
+  208  find --help
+  209  find ?
+  210  cd ..
+  211  cd Desktop/
+  212  cd work/
+  213  cd .
+  214  cd ..
+  215  find work -type d
+  216  ps work/
+  217  ps
+  218  top
+  219  PATH
+  220  $PATH
+  221  find
+  222  find work -name
+  223  man man
+  224  PWD
+  225  $PWD
+  226  $USER
+  227  USER
+  228  user
+  229  usr
+  230  cd work/
+  231  ls
+  232  cd biosys-analytics/
+  233  ls
+  234  cd lectures/
+  235  ls
+  236  cd 02-unix/
+  237  ls
+  238  open 02-unix.pdf 
+  239  cd ..
+  240  cd ..
+  241  git pull upstream master
+  242  cd assignments/
+  243  ls
+  244  cd 01-unix
+  245  ls
+  246  cd ../01-unix-grad/
+  247  ls
+  248  cat 01-unix-grad.txt 
+  249  cd ..
+  250  cd ..
+  251  git push
+  252  foo
+  253  echo $PATH
+  254  clear
+  255  clear -l
+  256  clear
+  257  echo $PATH
+  258  PATH
+  259  PATH = foo
+  260  PATH=/foo
+  261  ls
+  262  ls
+  263  echo $PATH
+  264  ls
+  265  cd assignments/
+  266  ls
+  267  LS
+  268  cd ..
+  269  cd ..
+  270  ls
+  271  ls
+  272  cd ~/Desktop/
+  273  ls
+  274  cd Desktop/BE\ 534/work/biosys-analytics/assignments/01-unix
+  275  cd files/
+  276  吃的。。
+  277  cd ..
+  278  wc -l
+  279  wc -l files/
+  280  cd files/
+  281  wc -l usdeclar.txt 
+  282  wc -l const.txt 
+  283  wc -l scarlet.txt 
+  284  wc -l *
+  285  wc -l const.txt scarlet.txt usdeclar.txt 
+  286  wc -l *
+  287  cd ..
+  288  wc -l files/
+  289  cd files/
+  290  wc -l
+  291  cd ..
+  292  cd files/
+  293  ls -l
+  294  cd ..
+  295  ls -l files/
+  296  cd files/
+  297  ls -l const.txt scarlet.txt usdeclar.txt 
+  298  wc -l const.txt scarlet.txt usdeclar.txt 
+  299  ls
+  300  ls -lh
+  301  find
+  302  find --help
+  303  man find
+  304  find -size 50k
+  305  find -size +50k *
+  306  cd ..
+  307  find -size +50k files/
+  308  find -size +50k files/*
+  309  man find
+  310  ls -l files/ | find -size +50k
+  311  ls -l files | find -size +50k
+  312  find files/ -size +50k
+  313  ls -l
+  314  cd files/
+  315  ls -l
+  316  ls -lh
+  317  find * -size +50k
+  318  cd ..
+  319  find files/ -size +50k
+  320  find files/ -size -50k
+  321  cd files/
+  322  file const.txt 
+  323  md5sum *
+  324  md5sum
+  325  man md5sum
+  326  ssh hpc
+  327  cd Desktop/BE\ 534/work/biosys-analytics/assignments/01-unix/files/
+  328  ls
+  329  md5sum *
+  330  brew install md5sha1sum
+  331  md5sum
+  332  sudo brew install md5sha1sum
+  333  pwd
+  334    sudo chown -R $(whoami) /usr/local/share/man/man5 /usr/local/share/man/man8
+  335  ls -lh
+  336    sudo chown -R chunanliu /usr/local/share/man/man5 /usr/local/share/man/man8
+  337  brew install md5sha1sum
+  338  md5sum *
+  339  cd ..
+  340  md5sum files/
+  341  cd ..
+  342  cd 01-unix/files/
+  343  md5sum const.txt scarlet.txt usdeclar.txt 
+  344  man md5sum
+  345  ls
+  346  md5sum
+  347  md5sum const.txt scarlet.txt usdeclar.txt 
+  348  md5sum *
+  349  cat file | md5sum > sumfile
+  350  cat * | md5sum
+  351  ls
+  352  vim sumfile 
+  353  rm -rf sumfile 
+  354  clear
+  355  ls
+  356  ls -lh
+  357  cat const.txt scarlet.txt usdeclar.txt | md5sum
+  358  cat const.txt scarlet.txt usdeclar.txt
+  359  cat const.txt scarlet.txt usdeclar.txt | md5sum
+  360  df
+  361  man df
+  362  df -h
+  363  df -k
+  364  clear
+  365  ls
+  366  df -hu
+  367  df -hs
+  368  df -h
+  369  du -hs
+  370  pwd
+  371  ls
+  372  du -h
+  373  du -hs
+  374  du -shc
+  375  du -sh const.txt scarlet.txt usdeclar.txt 
+  376  du -shc
+  377  grep "judge" const.txt scarlet.txt usdeclar.txt | wc -l
+  378  grep judge const.txt scarlet.txt usdeclar.txt | wc -l
+  379  grep judge const.txt scarlet.txt usdeclar.txt | cat
+  380  man grep
+  381  grep -i judge const.txt scarlet.txt usdeclar.txt | cat
+  382  grep -i judge const.txt scarlet.txt usdeclar.txt | wc -l
+  383  grep -i "judge" const.txt scarlet.txt usdeclar.txt | wc -l
+  384  grep -i judge const.txt scarlet.txt usdeclar.txt | wc -l
+  385  grep human const.txt scarlet.txt usdeclar.txt | file
+  386  grep human const.txt scarlet.txt usdeclar.txt | find
+  387  grep human const.txt scarlet.txt usdeclar.txt
+  388  grep check const.txt scarlet.txt usdeclar.txt lR
+  389  grep check const.txt scarlet.txt usdeclar.txt lR
+  390  grep human const.txt scarlet.txt usdeclar.txt lR
+  391  grep -r human const.txt scarlet.txt usdeclar.txt 
+  392  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1
+  393  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1 | unique
+  394  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1 | uni
+  395  grep -r human const.txt scarlet.txt usdeclar.txt | cut -d: -f1 | uniq
+  396  ls
+  397  grep -Ril 'human' .
+  398  ls
+  399  grep -Ril 'human' const.txt scarlet.txt usdeclar.txt 
+  400  grep -rl 'human' const.txt scarlet.txt usdeclar.txt 
+  401  man grep
+  402  grep -l 'human' const.txt scarlet.txt usdeclar.txt 
+  403  grep -i 'scarlet' | wc -c
+  404  grep -i 'scarlet' scarlet.txt | wc -c
+  405  man wc
+  406  grep -i 'scarlet' scarlet.txt | wc -l
+  407  grep -io 'scarlet' scarlet.txt | wc -c
+  408  grep -o -i 'scarlet' scarlet.txt | wc -c
+  409  man wc
+  410  grep -i 'scarlet' scarlet.txt | wc -m
+  411  vim scarlet.txt 
+  412  man grep
+  413  grep -i0 judge const.txt scarlet.txt usdeclar.txt | wc -l
+  414  grep -io judge const.txt scarlet.txt usdeclar.txt | wc -l
+  415  grep -io judge const.txt scarlet.txt usdeclar.txt | wc -c
+  416  grep -io 'scarlet' scarlet.txt | wc -l
+  417  grep -o 'scarlet' scarlet.txt | wc -l
+  418  man grep
+  419  grep -c 'scarlet' scarlet.txt 
+  420  grep -ic 'scarlet' scarlet.txt 
+  421  grep -i 'scarlet' scarlet.txt | wc -ck
+  422  grep -i 'scarlet' scarlet.txt | wc -kck
+  423  grep -i 'scarlet' scarlet.txt | wc -kc
+  424  grep -i 'scarlet' scarlet.txt | wc -m
+  425  grep -io 'scarlet' scarlet.txt | wc -m
+  426  grep -i -o 'scarlet' scarlet.txt | wc -m
+  427  man grep
+  428  grep -i 'scarlet' scarlet.txt | cat
+  429  fgrep -i 'scarlet' scarlet.txt | cat
+  430  tr -cd  'scarlet' <scarlet.txt
+  431  clear
+  432  tr -cd  'scarlet' scarlet.txt 
+  433  tr -cd  'scarlet' <scarlet.txt 
+  434  clear
+  435  tr -cd  'scarlet' <scarlet.txt |wc -c
+  436  tr -cd  scarlet <scarlet.txt |wc -c
+  437  tr -cd  scarlet < scarlet.txt 
+  438  ls
+  439  vim scarlet.txt 
+  440  fgrep -0 "scarlet" scarlet.txt |wc -l
+  441  tr -cd "scarlet" < scarlet.txt 
+  442  clear
+  443  ls
+  444  ls -lh
+  445  tr -cd "scarlet"  scarlet.txt 
+  446  tr -cd "scarlet"  scarlet.txt |wc -c
+  447  tr -cd "scarlet" < scarlet.txt |wc -c
+  448  fgrep -0 "scarlet" scarlet.txt |wc -l
+  449  grep -0 'scarlet' scarlet.txt |wc -l
+  450  fgrep -o "scarlet" scarlet.txt |wc -l
+  451  fgrep -oi "scarlet" scarlet.txt |wc -l
+  452  fgrep -io "scarlet" scarlet.txt
+  453  grep -io scarlet.txt | cat
+  454  grep -io scarlet.txt
+  455  grep -io 'scarlet' scarlet.txt
+  456  grep -io 'scarlet' scarlet.txt | wc -l
+  457  grep -i 'scarlet' scarlet.txt | wc -l
+  458  head -n15 const.txt scarlet.txt usdeclar.txt > foo.txt
+  459  ls
+  460  vim foo.txt 
+  461  wc -l foo.txt 
+  462  vim foo.txt 
+  463  vi const.txt 
+  464  vim foo.txt 
+  465  rm foo.txt 
+  466  ls
+  467  history > cmds
+  468  ls
+  469  vim cmds 
+  470  cd ..
+  471  git add files/
+  472  git commit
+  473  git commit
+  474  git commit -m 'all done' files
+  475  git push
+  476  pwd
+  477  cd files/
+  478  pwd
+  479  cd Desktop/
+  480  cd BE\ 534/
+  481  ls
+  482  cd work/
+  483  ls
+  484  cd biosys-analytics/
+  485  git pull upstream master
+  486  git push
+  487  ls
+  488  cd assignments/
+  489  ls
+  490  cd 01-unix
+  491  ls
+  492  cd files/
+  493  ls
+  494  cd ..
+  495  ls files/
+  496  ls -lh files/
+  497  cd files/
+  498  vi answers.txt 
+  499  ls
+  500  cd Desktop/BE\ 534/work/biosys-analytics/assignments/01-unix-grad/files/
+  501  wc -c const.txt scarlet.txt 
+  502  man awk
+  503  ls *c *s
+  504  ls *c const.txt scarlet.txt 
+  505  ls c* const.txt scarlet.txt 
+  506  ls
+  507  ls c*
+  508  ls c* s*
+  509  ls c* s* | wc -m
+  510  ls c* s* | wc -c
+  511  ls c* s* | wc -w
+  512  man wc
+  513  wc -c const.txt scarlet.txt 
+  514  wc -w const.txt scarlet.txt 
+  515  grep c* s*
+  516  grep c* s* | wc -w
+  517  grep c* s* ../ | wc -w
+  518  grep c* s* const.txt scarlet.txt usdeclar.txt 
+  519  grep c* s* const.txt scarlet.txt usdeclar.txt | wc -w
+  520  ls const.txt 
+  521  ls const.txt | cat
+  522  find c* s* 
+  523  find c* s* | wc -w
+  524  find -name c* s* | wc -w
+  525  awk *c
+  526  awk *c const.txt scarlet.txt 
+  527  man re
+  528  find . -name '*c'
+  529  find . -name '*c' | wc -w
+  530  find . -name 'c*' | wc -w
+  531  awk . -name 'c*' | wc -w
+  532  cat const.txt 
+  533  cat c*
+  534  cat c* s* | wc -w
+  535  wc -w const.txt scarlet.txt 
+  536  cat c* s* . | wc -w
+  537  ls
+  538  clear
+  539  vim const.txt 
+  540  grep '^Article [0-9]
+exit
+  541  LS
+  542  grep '^Article [0-9]' const.txt
+  543  grep '^Article [0-9]' const.txt scarlet.txt usdeclar.txt 
+  544  vim scarlet.txt 
+  545  vim usdeclar.txt 
+  546  vi const.txt 
+  547  grep -cvP '\S' const.txt 
+  548  grep -cv-E '[^[:space:]]' const.txt 
+  549  grep -cv const.txt 
+  550  grep -cvE '[^[:space:]]' const.txt 
+  551  vim const.txt 
+  552  grep -cvE '[^[:space:]]' const.txt 
+  553  grep -cvE '[^[:space:]]' const.txt 
+  554  grep -cvE '[^[:space:]]' const.txt 
+  555  vim const.txt 
+  556  grep -i '^[aeiou]' scarlet.txt 
+  557  vim scarlet.txt 
+  558  grep -i '^[aeiou]' scarlet.txt | wc-c
+  559  grep -i '^[aeiou]' scarlet.txt | wc -c
+  560  grep -i '^[aeiou]' scarlet.txt
+  561  grep -i '^[aeiou]' scarlet.txt | wc -l
+  562  grep -i '^[aeiou]' scarlet.txt | sort | wc-l
+  563  grep -i '^[aeiou]' scarlet.txt | sort | wc -l
+  564  grep -i '^[aeiou]' scarlet.txt | sort -u | wc -l
+  565  grep -i '^[aeiou]' scarlet.txt | sort -c
+  566  grep -i '^[aeiou]' scarlet.txt | cut -c1
+  567  grep -i '^[aeiou]' scarlet.txt | cut -c1 | sort
+  568  grep -i '^[aeiou]' scarlet.txt | cut -c1 | sort | uniq -c
+  569  grep -i '^[aeiou]' scarlet.txt | cut -c1 | uniq -c
+  570  grep -i '^[aeiou]' scarlet.txt | cut -c1 | sort | uniq -c
+  571  grep -i '^[aeiou]' scarlet.txt | wc -l
+  572  history > cmds
