@@ -8,7 +8,6 @@ Purpose: Rock the Casbah
 import argparse
 import sys
 import os
-import glob
 
 
 # --------------------------------------------------
