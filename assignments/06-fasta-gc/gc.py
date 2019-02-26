@@ -94,7 +94,6 @@ def main():
                 gc_content = int((count_gc/len(seq_record)) * 100)
                 if gc_content >= pct_gc:
                     high_sequences.append(seq_record)
-                    print(len(high_sequences))
                     SeqIO.write(high_sequences, os.path.join(dirname, highout_name), "fasta")
 
                 else:
