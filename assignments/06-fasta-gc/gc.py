@@ -91,6 +91,7 @@ def main():
                 for char in seq_record.seq:
                     if char in 'GC':
                         count_gc += 1
+
                 gc_content = int((count_gc/len(seq_record)) * 100)
                 if gc_content >= pct_gc:
                     high_sequences.append(seq_record)
