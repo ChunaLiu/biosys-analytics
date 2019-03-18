@@ -50,9 +50,6 @@ def main():
         die(msg='N () must be a positive integer')
 
     for i in range(1, num_bottles + 1):
-
-
-
         print('\n'.join(['{} bottle{} of beer on the wall,'.format(num_bottles - i + 1, 's' if (num_bottles - i + 1) != 1 else ''),
                          '{} bottle{} of beer,'.format(num_bottles - i + 1, 's' if (num_bottles - i + 1) != 1 else ''),
                          'Take one down, pass it around,',
