@@ -100,33 +100,6 @@ def main():
         print('Wrote {:,} of {:,} unclustered proteins to "{}"'.format(count_unclustered, count_p, outfile))
 
 
-    #         p_ids.append(p_id)
-    #         print(full_id)
-    #
-    # c_ids = set(c_ids)
-    # p_ids = set(p_ids)
-    # unclustered_ids = p_ids.difference(c_ids)
-    # for unclustered_id in unclustered_ids:
-    #     if re.search(unclustered_id, )
-    #
-    # for e in unclustered_ids:
-    #     print(e)
-
-
-
-
-
-            # print(protein_record.id)
-
-            # print(r)
-            # re.sub('>gi\|')
-            # print(re.search('>gi\|\d+', r))
-
-
-
-
-
-
 # --------------------------------------------------
 if __name__ == '__main__':
     main()
