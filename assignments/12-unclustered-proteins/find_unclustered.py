@@ -71,7 +71,6 @@ def main():
     c_ids = []
     count_p = 0
     count_unclustered = 0
-    p_ids = []
 
     if not os.path.isfile(proteins):
         die(msg='--proteins "{}" is not a file'.format(proteins))
