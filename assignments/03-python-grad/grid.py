@@ -33,7 +33,8 @@ def main():
             # for item in row:
             #     print('{:3}'.format(item), end='')
             # print()
-
+			#method 3:
+			#divde i == 0
 
 
 # --------------------------------------------------

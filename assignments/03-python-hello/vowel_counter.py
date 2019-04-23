@@ -19,7 +19,7 @@ def main():
 
     if len(string) > 0:
         count = 0
-        vowels = "aeiouAEIOU"
+        vowels = "aeiouAEIOU" #ss.lower(), make ss lower case; ss.lower().count(vowel), count the number of vowel in ss
         ss = string[0]
         for i in ss:
             if i in vowels:

@@ -94,6 +94,7 @@ def main():
 
     with open(output, 'a') as o:
         for r in SeqIO.parse(swiss_file, 'swiss'):
+            #r.annotations is a dictionary including keys and values for each record
             if r.id in match_id:
                 SeqIO.write(r, o, 'fasta')
 

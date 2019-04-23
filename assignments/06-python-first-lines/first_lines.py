@@ -51,16 +51,19 @@ def main():
     args = get_args()
     input = args.positional
     space_width = args.width
+
     for i in input:
         if not os.path.isdir(i):
             warn(msg='"{}" is not a directory'.format(i))
+            continue
 
         else:
             print(i)
+            #print(os.path.basename(i))
             output = {}
             for filename in os.listdir(i):
                 with open(os.path.join(i, filename)) as file:
-                    first_line = file.readlines()[0].rstrip()
+                    first_line = file.readlines()[0].rstrip() #readline().rstrip()
                     dots = '.' * (space_width - len(first_line) - len(filename)) # two blank spaces, should minus 2
                     output.setdefault(filename, []).append(first_line + ' ' + dots + ' ' + filename)
                     #filename as key for each first line

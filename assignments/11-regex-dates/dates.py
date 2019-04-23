@@ -28,9 +28,9 @@ def main():
 
     date_re_01 = re.compile('(\d{4})'
                             '[-]'
-                            '(\d{1,})'
+                            '(\d{1,2})'
                             '[-]'
-                            '(\d{1,})')
+                            '(\d{1,2})')
 
     date_re_02 = re.compile('(\d{4})'
                             '(\d{2})'
@@ -38,9 +38,9 @@ def main():
 
     date_re_03 = re.compile('(\d{4})'
                             '[-]'
-                            '(\d{1,})')
+                            '(\d{1,2})')
 
-    date_re_04 = re.compile('(\d{1,})'
+    date_re_04 = re.compile('(\d{1,2})'
                             '[/]'
                             '(\d{2})')
 

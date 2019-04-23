@@ -65,6 +65,12 @@ def main():
         die(msg='--codons "{}" is not a file'.format(codons_table))
 
     codons_dict = {}
+    # with open(codons_table) as f:
+    #     for line in f:
+    #         # print(line)
+    #         [aa, codons] = line.split()
+    #         codons_dict[aa] = codons.split()
+            # print(codons_dict)
     with open(codons_table) as f:
         for row in f:
             keys = row[0:3]

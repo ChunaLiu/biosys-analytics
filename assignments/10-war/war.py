@@ -48,11 +48,11 @@ def main():
     args = get_args()
     seed = args.seed
     suites = list('♥♠♣♦')
-    num = list(str (j) for j in range(2, 11))
+    num = list(str (j) for j in range(2, 11)) #list(map(str, range(2, 11)))
     char = list('JQKA')
     deck = list(product(suites, num + char))
 
-    card_value = {}
+    card_value = {} #also can use index in the list to compare the values
     value = 2
     for i in deck[0:13]:
         card_value[i[1]] = value

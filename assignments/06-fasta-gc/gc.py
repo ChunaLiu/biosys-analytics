@@ -73,8 +73,9 @@ def main():
     for file in input:
         if not os.path.isfile(file):
             warn(msg='"{}" is not a file'.format(file))
+            continue
 
-        else:
+        else: # can remove else and put below script at 'if' position
             num_sequences = 0
             file_index += 1
             print('{}: {}'.format((file_index), file))
@@ -83,8 +84,12 @@ def main():
             basename = os.path.basename(file)
             highout_name = os.path.splitext(basename)[0] + '_' + 'high' + os.path.splitext(basename)[1]
             lowout_name = os.path.splitext(basename)[0] + '_' + 'low' + os.path.splitext(basename)[1]
-            high_sequences = []
-            low_sequences = []
+            high = os.path.join(dirname, highout_name)
+            low = os.path.join(dirname, lowout_name)
+            high_fh = open(high, 'wt')
+            low_fh = open(low, 'wt')
+            # high_sequences = []
+            # low_sequences = []
             for seq_record in SeqIO.parse(file, 'fasta'):
                 num_sequences += 1
                 count_gc = 0
@@ -94,21 +99,23 @@ def main():
 
                 gc_content = int((count_gc/len(seq_record)) * 100)
                 if gc_content >= pct_gc:
-                    high_sequences.append(seq_record)
-                    SeqIO.write(high_sequences, os.path.join(dirname, highout_name), "fasta")
+                    # high_sequences.append(seq_record)
+                    # SeqIO.write(seq_record, os.path.join(dirname, highout_name), "fasta")
+                    SeqIO.write(seq_record, high_fh, "fasta")
 
                 else:
-                    low_sequences.append(seq_record)
-                    SeqIO.write(low_sequences, os.path.join(dirname, lowout_name), "fasta")
+                    # low_sequences.append(seq_record)
+                    # SeqIO.write(seq_record, os.path.join(dirname, lowout_name), "fasta")
+                    SeqIO.write(seq_record, low_fh, "fasta")
 
                     #import Counter
-                    #nucs = Counter(ecord.seq)
+                    #nucs = Counter(record.seq)
                     #seq_len = len(record.seq)
                     #gc_num = nucs.get('G', 0) + nucs.get('C', 0)
                     #gc = int((gc_num/seq_len) *100)
 
             num_total_sequences += num_sequences
-    print('Done, wrote {} sequences to out dir "{}"'.format(num_total_sequences, dirname))
+    print('Done, wrote {} sequence{} to out dir "{}"'.format(num_total_sequences, 's' if num_total_sequences != 1 else '', dirname))
 
 
 

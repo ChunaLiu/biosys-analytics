@@ -92,7 +92,7 @@ def main():
         sum += d
         logging.debug(msg='s1 = {}, s2 = {}, d = {}'.format(word1, word2, d))
     print(sum)
-    
+
 
 # --------------------------------------------------
 if __name__ == '__main__':

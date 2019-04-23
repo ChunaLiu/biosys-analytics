@@ -22,7 +22,7 @@ def main():
     alt = args[1]
 
     pass_re_01 = re.compile(password)
-    pass_re_02 = re.compile(password[0].upper() + password[1:])
+    pass_re_02 = re.compile(password[0].upper() + password[1:]) #password.capitalize() only upper for the first letter
     pass_re_03 = re.compile(password.upper())
     pass_re_04 = re.compile('.?' + password + '.?')
 
@@ -31,12 +31,6 @@ def main():
     if match:
         print('ok')
     else: print('nah')
-
-
-
-
-
-
 
 
 # --------------------------------------------------
