@@ -62,7 +62,7 @@ def main():
             if num_count == 0:
                 avg = 0
             else:
-                avg =  sum/num_count
+                avg = sum/num_count
             print('{:10.02f}: {}'.format(avg, os.path.basename(file)))
 
 
